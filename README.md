@@ -2,7 +2,7 @@
 
 ⚠️ Disclaimer: This tool is for educational purposes only. Unauthorized port scanning or network reconnaissance on IP addresses that you do not own or have explicit permission to scan is illegal in many jurisdictions. Always ensure you have proper authorization before conducting any security testing, including port scans, on third-party systems.
 
-By using this tool, you agree to abide by all local laws and regulations regarding network security and ethical hacking. Always practice responsible scanning techniques and obtain permission before testing on systems that are not your own.
+⚠️ By using this tool, you agree to abide by all local laws and regulations regarding network security and ethical hacking. Always practice responsible scanning techniques and obtain permission before testing on systems that are not your own.
 
 #
 
@@ -63,13 +63,13 @@ If a port is closed
 + it will notify you.
 
 
-### What We Learned
+### What We Learned 
 In this project, we **opted** (pun intented) for using the `argparse` library instead of `optparse`, which has been deprecated since Python 2.7. Here are the key reasons for this choice:
 
-**Maintenance**: argparse is the standard library for argument parsing in Python, which means it is well-maintained and widely supported in newer Python versions.
+⚙️ **Maintenance**: argparse is the standard library for argument parsing in Python, which means it is well-maintained and widely supported in newer Python versions.
 
-**Ease of Use**: argparse provides a simpler and more intuitive API for handling command-line arguments, including built-in help text, argument validation, and support for required/optional arguments.
+🎯 **Ease of Use**: argparse provides a simpler and more intuitive API for handling command-line arguments, including built-in help text, argument validation, and support for required/optional arguments.
 
-**Extensibility**: argparse can easily handle complex argument parsing scenarios with minimal code changes, making it a flexible and powerful choice.
+⚡ **Extensibility**: argparse can easily handle complex argument parsing scenarios with minimal code changes, making it a flexible and powerful choice.
 
 By using argparse, we not only extended the life of the code but also simplified the process of adding additional command-line options or features to the tool in the future.
